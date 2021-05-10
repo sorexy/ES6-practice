@@ -5,7 +5,7 @@ A Simple Restaurant Website Project to revise the following ES6 concepts:
 - Async and Await syntax to replace .then() and .catch() in promises
 - Importing / Exporting Modules to replace IIFE namespaces
 - Template literal syntax
-- new "const" and "let" keywords
+- New "const" and "let" keywords
 
 
 Also:
