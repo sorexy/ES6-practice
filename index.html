@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div id="load-container"></div>
+
+<div id="page">
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="index.html" id="branding"><img src="assets/icon.png" alt="" width="50" height="50"><strong>M</strong><p>P</p></a>
+        </div>
+        <div id="site-brand" class="mx-auto">
+            <a href="index.html"><h1>Masta Pasta</h1></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/pizza.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/3.jpg" class="d-block w-100">
+            </div>
+        </div>
+    </div>
+
+    <div id="call-floater">
+        <i class="fa fa-phone fa-lg"></i><a href="tel:0182998608"><p>Call Us <strong>Now</strong></p></a>
+    </div>
+
+    <div id="store-desc" class="container">
+        <h2>Masta Pasta</h2>
+        <p>
+            A Fine-Casual Eatery Featuring Handmade Pastas & Wood-Fired Italian American Classics.
+        </p>
+        <p>
+            #69 on Yelp’s List of 100 Places to Eat in 2021.
+        </p>
+    </div>
+
+    <div id="featured-items" class="container"></div>
+
+<div id="about-section">
+    <div class="container">
+        <div class="row justify-content-center align-items-start">
+            <div class="about col-12 col-sm-5 col-md-5 offset-lg-1 col-lg-4">
+                <h5>About</h5>
+                <img src="assets/doge.jpg" id="about-pic" />
+                <p>We are a family run restaurant. Head chef is called Joma. Very friendly! Love doge.</p>
+            </div>
+            <div class="about-social col-12 col-sm-3 col-md-3 align-self-center">
+                <div class="social-icons text-center">
+                    <a class="btn btn-social-icon btn-google" href="http://google.com/+">
+                        <i class="fa fa-google-plus fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                        <i class="fa fa-linkedin fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                        <i class="fa fa-youtube fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                </div>
+            </div>
+            <div class="findus col-12 col-sm-3 col-md-3">
+                <h5>Find Us</h5>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d414743.03730596544!2d139.3146675070431!3d35.69718840531202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1d96fb5701%3A0x9276f70f9d512927!2sAnimate%20Akihabara!5e0!3m2!1sen!2smy!4v1620289886432!5m2!1sen!2smy" width="180" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <p style="font-size: 14px;">
+                        4 Chome-3-2 Sotokanda, Chiyoda City, Tokyo 101-0021, Japan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>

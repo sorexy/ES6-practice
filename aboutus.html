@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="index.html" id="branding"><img src="assets/icon.png" alt="" width="50" height="50"><strong>M</strong><p>P</p></a>
+        </div>
+        <div id="site-brand" class="mx-auto">
+            <a href="index.html"><h1>Masta Pasta</h1></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link active" href="aboutus.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+<div class="container content">
+    <div class="row address aboutus-row notform justify-content-center align-items-center">
+        <div class="col-12 col-sm-6 offset-sm-1">
+            <h2>Address</h2>
+            <p>
+                Number 69, Jalan Ksk 3 <br/>
+                Kampung Sungai Kertas<br/>
+                68100<br/>
+                Batu Caves<br/>
+                Selangor
+            </p>
+            <div class="btn-group" role="group" aria-label="contact-buttons">
+              <button type="button" class="btn btn-outline-dark">Call</button>
+              <button type="button" class="btn btn-outline-dark">Sykpe</button>
+              <button type="button" class="btn btn-outline-dark">WhatsApp</button>
+            </div>
+        </div>
+        <div id="bigmap" class="col-12 col-sm-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.3802141250258!2d101.68315091529003!3d3.255356497629974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc47949746dbf5%3A0xfa3e3ea7d3da1c54!2sANIME%20WORLD%20PORTAL!5e0!3m2!1sen!2smy!4v1620440921141!5m2!1sen!2smy" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <div class="row chef-info aboutus-row notform justify-content-center align-items-center">
+        <div class="col-12 col-sm-6 offset-sm-1 order-last">
+            <h2>Our Chef</h2>
+            <p>
+                Dogecoin (/ˈdoʊ(d)ʒkɔɪn/ DOHZH-koyn or DOHJ-koyn, code: DOGE, symbol: Ð) is a cryptocurrency created by software engineers Billy Markus and Jackson Palmer, who decided to create a payment system that is free from traditional banking fees.
+            </p>
+        </div>
+        <div class="col-12 col-sm-4 offset-sm-1 order-first">
+            <img src="assets/doge.jpg" style="height: 250px; width: 250px; border-radius: 50%;"></h2>
+        </div>
+    </div>
+    <div class="row feedback aboutus-row align-items-center">
+        <div class="col-12 offset-sm-1">
+            <h2>Feedback</h2>
+        </div>
+        <div class="col-12 col-sm-6 offset-sm-1">
+            <form>
+              <div class="mb-3">
+                <label for="input-email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                  <label for="telnum" class="form-label">Tel Number</label>
+                  <div class="row">
+                      <div class="col-3 col-md-2">
+                          <input type="tel" class="form-control" id="areacode" placeholder="+60"/>
+                      </div>
+                      <div class="col-6 col-md-6">
+                          <input type="tel" class="form-control" id="telnum" placeholder="182998770" />
+                      </div>
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="feedback" class="form-label">Feedback</label>
+                  <textarea class="form-control" rows="5" id="feedback"/></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="contact-agree">
+                <label class="form-check-label" for="contact-agree">Please Contact Me</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <div id="about-section">
+        <div class="container">
+            <div class="row justify-content-center align-items-start">
+                <div class="about col-12 col-sm-5 col-md-5 offset-lg-1 col-lg-4">
+                    <h5>About</h5>
+                    <img src="assets/doge.jpg" id="about-pic" />
+                    <p>We are a family run restaurant. Head chef is called Joma. Very friendly! Love doge.</p>
+                </div>
+                <div class="about-social col-12 col-sm-3 col-md-3 align-self-center">
+                    <div class="social-icons text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+">
+                            <i class="fa fa-google-plus fa-lg"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin fa-lg"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter fa-lg"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                            <i class="fa fa-youtube fa-lg"></i>
+                        </a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+                <div class="findus col-12 col-sm-3 col-md-3">
+                    <h5>Find Us</h5>
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d414743.03730596544!2d139.3146675070431!3d35.69718840531202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1d96fb5701%3A0x9276f70f9d512927!2sAnimate%20Akihabara!5e0!3m2!1sen!2smy!4v1620289886432!5m2!1sen!2smy" width="180" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <p style="font-size: 14px;">
+                            4 Chome-3-2 Sotokanda, Chiyoda City, Tokyo 101-0021, Japan
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

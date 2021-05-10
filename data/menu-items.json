@@ -1,0 +1,32 @@
+{
+    "item-1": {
+        "title": "Lovely Lasagna",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "href": "assets/c1.jpg"
+    },
+    "item-2": {
+        "title": "Perfect Pasta",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "href": "assets/c2.jpg"
+    },
+    "item-3": {
+        "title": "Bangin' Burger",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "href": "assets/c5.jpg"
+    },
+    "item-4": {
+        "title": "Pink Pizza",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "href": "assets/c4.jpg"
+    },
+    "item-5": {
+        "title": "Succulent Sushi",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "href": "assets/c3.jpg"
+    },
+    "item-6": {
+        "title": "Sad Oyster",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "href": "assets/c6.jpg"
+    }
+}
