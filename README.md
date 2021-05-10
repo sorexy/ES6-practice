@@ -11,7 +11,7 @@ A Simple Restaurant Website Project to revise the following ES6 concepts:
 Also:
 - sends GET request to JSON file to load menu items
 - uses Bootstrap 5 and custom CSS for styling
-- has a fake loadbar on page load, generated with BS5 and AJAX
+- has a fake loadbar on page load, generated with BS5 and jQuery
 - injects HMTL into empty divs via js (but isn't a Single Paged App)
 - has a butt ton of bootstrap components (was originally boostrap 5 revision)
 
