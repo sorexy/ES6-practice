@@ -1,7 +1,7 @@
 # ES6-practice
-Simple Restaurant Website Project to revise ES6 concepts:
+A Simple Restaurant Website Project to revise the following ES6 concepts:
 - AJAX XHR requests
-- Promises to replace callback
+- Promises to replace callback functions
 - Async and Await syntax to replace .then() and .catch() in promises
 - Importing / Exporting Modules to replace IIFE namespaces
 - Template literal syntax
